@@ -267,7 +267,10 @@ footer > a {
 
 
 .projects-blocks > .projects-blocks-text {
-  writing-mode: sideways-lr;
+  writing-mode: sideways-lr; /* Standard syntax */
+  -webkit-writing-mode: vertical-rl; /* For older WebKit browsers */
+  -moz-writing-mode: vertical-rl; /* Firefox support */
+  -ms-writing-mode: vertical-rl; /* Microsoft Edge */
   display: flex;
   justify-content: center;
   color: #ffffff;
