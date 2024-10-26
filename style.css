@@ -12,6 +12,12 @@ body {
   gap: 80px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
 header {
   background: #191818;
   height: 64px !important;
@@ -160,9 +166,9 @@ hr {
   position: absolute;
 }
 
-.projects-block:nth-child(2n) > div.text {
+/*.projects-block:nth-child(2n) > div.text {
   padding: 0 0 0 20px;
-}
+}*/
 
 .about {
   display: flex;
@@ -245,6 +251,39 @@ footer > a {
   font-size: 16px;
 }
 
+.projects-left {
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: relative;
+  align-self: start;
+}
+
+.projects-blocks {
+  display: flex;
+}
+
+.projects-blocks > .projects-blocks-text {
+  writing-mode: sideways-lr;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 37px;
+  font-family: 'TildaSans',Arial,sans-serif;
+  line-height: 37px;
+  font-weight: 400;
+  padding: 0 40px;
+}
+
+.projects-blocks > .projects-blocks-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-blocks:nth-child(2n) > .projects-blocks-text {
+  background-color: #323232;
+}
+
 @media screen and (width > 700px) {
   .projects-block {
     gap: 0;
@@ -288,6 +327,12 @@ footer > a {
   .aboutright > h2 {
     text-align: center;
     margin: 0;
+  }
+  .projects-blocks {
+    flex-direction: column;
+  }
+  .projects-blocks > .projects-blocks-text {
+    writing-mode: inherit;
   }
   
 }
