@@ -279,11 +279,14 @@ footer > a {
   }
   .aboutright {
     align-items: center;
+    justify-content: center;
   }
   .aboutrightbody {
+    align-items: center;
     justify-content: center;
   }
   .aboutright > h2 {
+    text-align: center;
     margin: 0;
   }
   
