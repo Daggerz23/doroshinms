@@ -145,9 +145,9 @@ hr {
   flex-direction: row-reverse;
 }
 .projects-block > div, .projects-block > video{
-  max-width: 725px;
-  width: 100%;
   position: relative;
+  max-width: 625px;
+  width: 100%;
 }
 .projects-block > div > a {
   position: absolute;
@@ -166,9 +166,9 @@ hr {
   position: absolute;
 }
 
-/*.projects-block:nth-child(2n) > div.text {
+.projects-block:nth-child(2n) > div.text {
   padding: 0 0 0 20px;
-}*/
+}
 
 .about {
   display: flex;
@@ -261,7 +261,10 @@ footer > a {
 
 .projects-blocks {
   display: flex;
+  width: 100%;
+  row-gap: 20px;
 }
+
 
 .projects-blocks > .projects-blocks-text {
   writing-mode: sideways-lr;
@@ -278,6 +281,8 @@ footer > a {
 .projects-blocks > .projects-blocks-body {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  gap: 20px;
 }
 
 .projects-blocks:nth-child(2n) > .projects-blocks-text {
@@ -305,6 +310,9 @@ footer > a {
   }
 }
 @media screen and (width < 1280px) {
+  .projects-blocks > .projects-blocks-text {
+    background: none !important;
+  }
   .about {
     flex-direction: column-reverse;
     justify-content: center;
