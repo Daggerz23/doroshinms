@@ -43,6 +43,8 @@ header a {
   display: block;
   height: 100%;
   object-fit: cover;
+  position: relative;
+  top: 64px;
 }
 
 .avatar {
@@ -57,7 +59,7 @@ header a {
 
 .person {
   position: relative;
-  top: -190px;
+  top: -120px;
   display: flex;
   flex-direction: column;
   color: #fff;
@@ -139,9 +141,26 @@ hr {
 .projects-block > div, .projects-block > video{
   max-width: 725px;
   width: 100%;
+  position: relative;
+}
+.projects-block > div > a {
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
 }
 
-.projects-block:nth-child(2n) > div {
+.projects-block > a {
+  position: absolute;
+}
+
+.projects-block:nth-child(2n) > div.text {
   padding: 0 0 0 20px;
 }
 
@@ -156,7 +175,7 @@ hr {
 }
 
 .aboutleft img {
-  width: 33.5em;
+  width: 80vw;
   max-width: 642px;
 }
 
@@ -195,8 +214,8 @@ hr {
 }
 
 .aboutblock img {
-  width: 57px;
-  height: 57px;
+  width: 2.5em;
+  height: 2.5em;
   filter: invert(100%);
 }
 
@@ -206,6 +225,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 25px;
+  padding: 40px 0;
 }
 
 footer > .contacts {
@@ -222,6 +242,7 @@ footer > .contacts > a > img {
 footer > a {
   color: #fff;
   text-decoration: none;
+  font-size: 16px;
 }
 
 @media screen and (width > 700px) {
@@ -246,10 +267,15 @@ footer > a {
 }
 @media screen and (width < 1280px) {
   .about {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     padding: 0 50px;
+    gap: 80px;
+  }
+  .aboutleft img {
+    width: 80vw;
+    max-width: none;
   }
   .aboutright {
     align-items: center;
