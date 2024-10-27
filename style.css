@@ -388,7 +388,8 @@ footer > a {
   .aboutright > h2 {
     text-align: center;
     margin: 0;
-    font-size: 30px;
+    font-size: 25px;
+    text-wrap: nowrap;
   }
   .aboutblock {
     flex-direction: column;
