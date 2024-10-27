@@ -144,10 +144,12 @@ hr {
   gap: 40px;
   flex-direction: row-reverse;
 }
-.projects-block > div, .projects-block > video{
+.projects-block > div, .projects-block > div > video{
   position: relative;
   max-width: 625px;
   width: 100%;
+  font-size: 22px;
+  line-height: 22px;
 }
 .projects-block > div > a {
   position: absolute;
