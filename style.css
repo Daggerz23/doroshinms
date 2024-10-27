@@ -392,6 +392,7 @@ footer > a {
   .aboutblock {
     flex-direction: column;
     text-align: center;
+    font-size: 16px;
   }
   .projects-blocks {
     flex-direction: column;
@@ -400,7 +401,7 @@ footer > a {
     writing-mode: inherit;
   }
   .projects-block > div, .projects-block > div > video{
-    font-size: 13px;
+    font-size: 14px;
   }
   
 }
