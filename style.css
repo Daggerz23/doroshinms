@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 2px solid green;
 }
 
 body {
@@ -38,6 +37,10 @@ header {
   padding: 0 30px;
   position: fixed;
   z-index: 999;
+}
+
+header .mobile {
+  display: none;
 }
 
 header a {
@@ -325,6 +328,28 @@ footer > a {
   }
 }
 @media only screen and (max-width: 900px) {
+  header > nav {
+    display: none;
+  }
+  header > .mobile {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'TildaSans',Arial,sans-serif;
+  }
+  header > .mobile > span{
+    display: block;
+    font-size: 22px;
+    color: #f40000;
+    font-weight: 700;
+  }
+  .person {
+    top: 0;
+  }
+  header {
+    position: absolute;
+    justify-content: start;
+  }
   .projects-blocks > .projects-blocks-text {
     font-size: 6em;
   }
@@ -364,11 +389,18 @@ footer > a {
     text-align: center;
     margin: 0;
   }
+  .aboutblock {
+    flex-direction: column;
+    text-align: center;
+  }
   .projects-blocks {
     flex-direction: column;
   }
   .projects-blocks > .projects-blocks-text {
     writing-mode: inherit;
+  }
+  .projects-block > div, .projects-block > div > video{
+    font-size: 13px;
   }
   
 }
