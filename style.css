@@ -365,7 +365,7 @@ footer > a {
     margin: 0 15px 15px 15px;
   }
 
-  .projects-blocks > .im-textt::before, .projects-blocks > .im-text::after {
+  .projects-blocks > .im-text::before, .projects-blocks > .im-text::after {
     content: '';
     border-bottom: none;
     padding: 0;
