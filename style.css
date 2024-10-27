@@ -12,6 +12,10 @@ body {
   gap: 80px;
 }
 
+video::-webkit-media-controls {
+  display: none;
+}
+
 main {
   display: flex;
   flex-direction: column;
