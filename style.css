@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   font-size: 1vw;
   gap: 80px;
+  width: 100%;
 }
 
 video::-webkit-media-controls {
