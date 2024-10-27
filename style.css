@@ -302,7 +302,7 @@ footer > a {
     flex-direction: row;
   }
 }
-@media screen and (width <= 900) {
+@media screen and (width <= 900px) {
   .projects-block > div.text {
     padding: 0 0 0 20px;
   }
