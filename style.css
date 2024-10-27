@@ -360,11 +360,16 @@ footer > a {
   }
   .projects-blocks > .projects-blocks-text::before, .projects-blocks > .projects-blocks-text::after {
     content: '';
-    border-bottom: none;
+    border-bottom: 2px solid #fff;
+    padding: 0 20px;
+    margin: 0 15px 15px 15px;
   }
 
   .projects-blocks > .im-textt::before, .projects-blocks > .im-text::after {
-
+    content: '';
+    border-bottom: none;
+    padding: 0;
+    margin: 0;
   }
   
   .projects-blocks > .projects-blocks-text {
