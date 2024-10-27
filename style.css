@@ -204,7 +204,7 @@ hr {
   gap: 100px;
 }
 
-.aboutright h2 {
+.aboutright > h2 {
   color: #ffffff;
   font-size: 42px;
   font-family: 'Arial',Arial,sans-serif;
@@ -388,6 +388,7 @@ footer > a {
   .aboutright > h2 {
     text-align: center;
     margin: 0;
+    font-size: 30px;
   }
   .aboutblock {
     flex-direction: column;
