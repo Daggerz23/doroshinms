@@ -269,7 +269,7 @@ footer > a {
 .projects-blocks {
   display: flex;
   width: 100%;
-  row-gap: 20px;
+  row-gap: 80px;
 }
 
 
@@ -323,6 +323,13 @@ footer > a {
   }
 }
 @media only screen and (max-width: 900px) {
+  .projects-blocks > .projects-blocks-text::before, .projects-blocks > .projects-blocks-text::after {
+    content: '';
+    border-bottom: 3px solid #fff;
+    padding: 0 40px;
+    margin: 0 25px 12.5px 25px;
+  }
+  
   .projects-blocks > .projects-blocks-text {
     background: none !important;
   }
