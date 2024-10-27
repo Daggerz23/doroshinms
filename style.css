@@ -303,6 +303,9 @@ footer > a {
   }
 }
 @media screen and (width <= 700px) {
+  .projects-block > div.text {
+    padding: 0 0 0 20px;
+  }
   .projects {
     padding: 0;
   }
