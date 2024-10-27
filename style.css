@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border: 2px solid green;
 }
 
 body {
@@ -349,6 +350,7 @@ footer > a {
   header {
     position: absolute;
     justify-content: start;
+    width: auto !important;
   }
   .projects-blocks > .projects-blocks-text {
     font-size: 6em;
@@ -358,9 +360,11 @@ footer > a {
   }
   .projects-blocks > .projects-blocks-text::before, .projects-blocks > .projects-blocks-text::after {
     content: '';
-    border-bottom: 2px solid #fff;
-    padding: 0 20px;
-    margin: 0 15px 15px 15px;
+    border-bottom: none;
+  }
+
+  .projects-blocks > .im-textt::before, .projects-blocks > .im-text::after {
+
   }
   
   .projects-blocks > .projects-blocks-text {
