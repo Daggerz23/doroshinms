@@ -299,7 +299,7 @@ footer > a {
   background-color: #323232;
 }
 
-@media only screen and (width > 900px) {
+@media only screen and (min-width: 900px) {
   .projects-block {
     gap: 0;
   }
@@ -307,7 +307,7 @@ footer > a {
     flex-direction: row;
   }
 }
-@media only screen and (width <= 900px) {
+@media only screen and (max-width: 900px) {
   .projects-block > div.text {
     padding: 0 0 0 20px;
   }
@@ -322,7 +322,7 @@ footer > a {
     flex-direction: column !important;
   }
 }
-@media only screen and (width < 1280px) {
+@media only screen and (max-width: 900px) {
   .projects-blocks > .projects-blocks-text {
     background: none !important;
   }
