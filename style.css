@@ -317,7 +317,7 @@ footer > a {
     flex-direction: column !important;
   }
 }
-@media screen and (width < 1280px) {
+@media screen and (width < 1300px) {
   .projects-blocks > .projects-blocks-text {
     background: none !important;
   }
