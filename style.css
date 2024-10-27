@@ -294,7 +294,7 @@ footer > a {
   background-color: #323232;
 }
 
-@media screen and (width > 900) {
+@media screen and (width > 900px) {
   .projects-block {
     gap: 0;
   }
