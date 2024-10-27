@@ -294,7 +294,7 @@ footer > a {
   background-color: #323232;
 }
 
-@media screen and (width > 700px) {
+@media screen and (width > 900) {
   .projects-block {
     gap: 0;
   }
@@ -302,7 +302,7 @@ footer > a {
     flex-direction: row;
   }
 }
-@media screen and (width <= 700px) {
+@media screen and (width <= 900) {
   .projects-block > div.text {
     padding: 0 0 0 20px;
   }
