@@ -185,6 +185,17 @@ hr {
   padding: 0 0 0 20px;
 }
 
+.projects-block > div.text {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-block > div.text > div.text-inner {
+  max-width: 525px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .about {
   display: flex;
   gap: 60px;
