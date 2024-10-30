@@ -157,7 +157,7 @@ hr {
 .projects-block > div, .projects-block > div > video{
   position: relative;
   max-width: 625px;
-  width: 625px;
+  width: 100%;
   font-size: 22px;
   line-height: 22px;
 }
