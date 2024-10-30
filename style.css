@@ -188,6 +188,7 @@ hr {
 .projects-block > div.text {
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 
 .projects-block > div.text > div.text-inner {
@@ -329,6 +330,7 @@ footer > a {
 @media only screen and (max-width: 900px) {
   .projects-block > div.text {
     padding: 0 0 0 20px;
+    width: 100%;
   }
   .projects {
     padding: 0;
