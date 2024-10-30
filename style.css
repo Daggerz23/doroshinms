@@ -158,8 +158,8 @@ hr {
   position: relative;
   max-width: 750px;
   width: 100vw;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 33px;
+  line-height: 50px;
 }
 .projects-block > div > video {
   width: 100%;
